@@ -1,0 +1,12 @@
+main: com.alegemaate.takemehome.TakeMeHome
+name: TakeMeHome
+version: 1.0.1
+author: Allan Legemaate
+description: Allows home command to be used to go to player spawn.
+api-version: 1.15
+commands:
+  home:
+    description: Teleport home
+    usage: /home
+    permission: takemehome.home
+    permission-message: You do not have permissions to use take me home.

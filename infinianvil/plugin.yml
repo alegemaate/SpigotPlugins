@@ -1,0 +1,12 @@
+main: com.alegemaate.infinianvil.Infinianvil
+name: Infinianvil
+version: 1.0.2
+author: Allan Legemaate
+description: Anvils no longer break.
+api-version: 1.15
+commands:
+  infinianvil:
+    description: About Infinianvil
+    usage: /infinianvil
+    permission: infinianvil.infinianvil
+    permission-message: You don't have infinianvil permission xD.

@@ -1,0 +1,12 @@
+main: com.alegemaate.usefulflesh.UsefulFlesh
+name: UsefulFlesh
+version: 1.0.1
+author: Allan Legemaate
+description: Gives a smelting and smoking recipe to rotten flesh.
+api-version: 1.15
+commands:
+  usefulflesh:
+    description: About useful flesh
+    usage: /usefulflesh
+    permission: usefulflesh.usefulflesh
+    permission-message: You do not have permissions to use useful flesh.
