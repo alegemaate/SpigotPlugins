@@ -1,0 +1,12 @@
+main: com.alegemaate.shearchickens.ShearChickens
+name: ShearChickens
+version: 1.0.0
+author: Allan Legemaate
+description: Shear chickens like sheep
+api-version: 1.15
+commands:
+  untamer:
+    description: About Shear Chickens
+    usage: /shearchicken
+    permission: shearchicken.shearchicken
+    permission-message: You don't have shearchicken permission xD.
