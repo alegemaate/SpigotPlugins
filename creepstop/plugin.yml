@@ -1,0 +1,12 @@
+main: com.alegemaate.creepstop.CreepStop
+name: CreepStop
+version: 1.0.0
+author: Allan Legemaate
+description: Stop creepers from blowing things up without disabling mob greifing
+api-version: 1.15
+commands:
+  creepstop:
+    description: About Creep Stop
+    usage: /creepstop
+    permission: creepstop.creepstop
+    permission-message: You don't have creepstop permission xD.

@@ -27,7 +27,7 @@ public class UsefulFlesh extends JavaPlugin {
   
   @Override
   public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-    if (command.getName().equalsIgnoreCase("infinianvil")) {
+    if (command.getName().equalsIgnoreCase("usefulflesh")) {
       sender.sendMessage("Smelt or smoke rotten flesh into leather");
       return true;
     }
