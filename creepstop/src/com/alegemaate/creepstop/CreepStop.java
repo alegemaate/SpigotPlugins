@@ -1,7 +1,5 @@
 package com.alegemaate.creepstop;
 
-import org.bukkit.command.Command;
-import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Creeper;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -20,19 +18,10 @@ public class CreepStop extends JavaPlugin implements Listener {
     getLogger().info("Bye!");
   }
 
-  @Override
-  public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-    if (command.getName().equalsIgnoreCase("creepstop")) {
-      sender.sendMessage("Disables creepers without using mobgreifing");
-      return true;
-    }
-    return false;
-  }
-
   @EventHandler
   public void onEntityExplode(EntityExplodeEvent event) {
     // Stop it
-    if (event.getEntity() instanceof Creeper) {
+    if (!event.isCancelled() && event.getEntity() instanceof Creeper) {
       event.setCancelled(true);
     }
   }

@@ -1,0 +1,6 @@
+main: com.alegemaate.simpleprotect.SimpleProtect
+name: SimpleProtect
+version: 1.0.0
+author: Allan Legemaate
+description: Simply protect your world
+api-version: 1.15

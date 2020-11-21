@@ -2,8 +2,6 @@ package com.alegemaate.usefulflesh;
 
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
-import org.bukkit.command.Command;
-import org.bukkit.command.CommandSender;
 import org.bukkit.inventory.FurnaceRecipe;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.SmokingRecipe;
@@ -23,15 +21,6 @@ public class UsefulFlesh extends JavaPlugin {
   @Override
   public void onDisable() {
     getLogger().info("Bye!");
-  }
-  
-  @Override
-  public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-    if (command.getName().equalsIgnoreCase("usefulflesh")) {
-      sender.sendMessage("Smelt or smoke rotten flesh into leather");
-      return true;
-    }
-    return false;
   }
 
   // Create furnace recipe

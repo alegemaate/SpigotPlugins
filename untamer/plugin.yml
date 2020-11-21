@@ -1,12 +1,6 @@
 main: com.alegemaate.untamer.Untamer
 name: Untamer
-version: 1.0.0
+version: 1.0.1
 author: Allan Legemaate
 description: Untame animals by right clicking with shears
 api-version: 1.15
-commands:
-  untamer:
-    description: About Untamer
-    usage: /untamer
-    permission: untamer.untamer
-    permission-message: You don't have untamer permission xD.
